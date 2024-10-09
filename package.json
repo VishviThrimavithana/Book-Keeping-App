@@ -1,0 +1,21 @@
+{
+  "name": "book-keeping-app",
+  "version": "1.0.0",
+  "description": "Book keeping app",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Vishvi D",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.0",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
